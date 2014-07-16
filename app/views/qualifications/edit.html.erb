@@ -1,6 +1,5 @@
-<h1>Editing qualification</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @qualification %> |
-<%= link_to 'Back', qualifications_path %>
+<%- model_class = Qualification -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => Qualification %></h1>
+</div>
+<%= render :partial => 'form' %>
