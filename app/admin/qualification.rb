@@ -1,4 +1,5 @@
 ActiveAdmin.register Qualification do
+  permit_params 
 
   
   # See permitted parameters documentation:
